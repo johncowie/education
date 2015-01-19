@@ -14,3 +14,11 @@ e.g.
 ```haskell 
 "hello " ++ "world"
 ```
+
+### Characters
+
+Represented with single quotes e.g. ``` 'a' ```
+
+A string is just a list of characters
+
+i.e. ``` ['a', 'b'] = "ab" ``` 
