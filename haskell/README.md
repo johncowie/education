@@ -6,6 +6,10 @@
 
 ``` :t 5 ```  => ``` 5 :: Num a => a ``` 
 
+### Loading files
+
+``` :load file.hs ```
+
 ## Basic Types
 
 ### Numbers are as you'd expect (infix)
