@@ -1,6 +1,6 @@
 ## Starting up the repl
 
-```ghci```
+``` ghci ```
 
 ## Basic Types
 
@@ -8,6 +8,9 @@
 
 ### Strings
 
-- Can be concatenated together with ```++```
+- Can be concatenated together with ``` ++ ```
 
-e.g. ```"hello " ++ "world"``` 
+e.g. 
+```haskell 
+"hello " ++ "world"
+```
