@@ -1,0 +1,67 @@
+-- based on openvim.com
+
+i - switch to INSERT mode
+ESC - get out of escape mode
+
+-- basic cursor movement (NORMAL mode) --
+h - move cursor left
+l - move cursor right
+j - move cursor down
+l - move cursor up
+
+-- word movement (NORMAL mode) --
+w - move to next word 
+e - move to end of word (or end of next word)
+b - move to beginning of word (or beginning of last word)
+
+-- Numbered word movement (NORMAL mode) --
+<N>w - specify number of words to move (e.g. 5w - move five words forward)
+<N>e - ditto with ends of words
+<N>b - ditto with beginnings of words
+
+-- Insert text repeatedly (NORMAL mode)
+<N>i<TEXT>, ESC - enter text N times  e.g. 3iGo => GoGoGo
+
+-- Find a character (NORMAL mode)
+f<char> - finds the next occurrence of a character e.g. fo finds the next 'o' from the current cursor position
+<N>f<char> - finds the nth occurrence of a character e.g. 3fq finds the third occurrence of 'q'  
+
+-- Go to matching parenthesis
+% - goes to the matching parenthesis
+
+-- Start/End of lines
+0 - goes to start of a line
+$ - goes to end of a line
+
+-- Find words
+* - finds next occurrence of word under cursor 
+# - finds previous occurrence of word under cursor
+
+-- Go to line
+gg - go to beginning of file
+G - go to end of file
+<N>G - go to Nth line
+
+-- Searching for text
+/ <text> - finds the next occurrence of the text
+n - during a search moves to the next match
+N - during a search moves to the previous match
+
+-- Inserting a new line (NORMAL mode)
+o - inserts a new line below the current one and switches into INSERT mode
+O - as above but inserts the line above the cursor
+
+-- Removing a character 
+-- Replacing a letter under the cursor
+-- Deleting
+-- Repetition
+-- Visual mode
+
+
+-- Turn on line numbers
+:set nu
+
+
+
+
+
